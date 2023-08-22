@@ -1,0 +1,76 @@
+<resources>
+    <string name="app_name">JobsConnect</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">More</string>
+    <string name="hello">Hello</string>
+    <string name="welcome_to">Welcome to JobsConnect</string>
+    <string name="please_wait">Loading. Please Wait..</string>
+    <string name="sorry_something_went_wrong_try">Sorry something went wrong. Please try again later.</string>
+    <string name="invalid_creds">Invalid credentials. Please try again.</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="select">Select</string>
+    <string name="done">Done</string>
+    <!--login-->
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="register_success">Registration Successful</string>
+    <string name="login_success">Login Successful</string>
+    <string name="password">Password</string>
+    <string name="password_hint">Enter your password</string>
+    <string name="username">Username</string>
+    <string name="username_hint">Enter your email or mobile number</string>
+    <string name="logged_in">Logged in as:</string>
+    <string name="logout_app">Logout from JobsConnect</string>
+    <string name="logout">Logout</string>
+    <!--cv details-->
+    <string name="cv_role">Job Role</string>
+    <string name="email">Email</string>
+    <string name="mobile">Mobile</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+    <string name="about_me">About me</string>
+    <string name="education">Education</string>
+    <string name="experience">Experience</string>
+    <string name="education_empty">No education details added.\nTap on "+" button to add education details.</string>
+    <string name="experience_empty">No experience added.\nTap on "+" button to add experience details.</string>
+    <string name="skills">Skills</string>
+    <string name="skill_add">Add Skill</string>
+    <string name="skills_empty">No skills added.\nTap on "+" button to add skills.</string>
+    <string name="search_empty">No search results found.\nPlease go back and try changing skills.</string>
+    <string name="skills_empty_type">No skills added.\nType a skill and tap on "Add Skill" button to add a skill.</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="hobbies">Hobbies</string>
+    <string name="languages">Languages</string>
+    <string name="address">Address</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="other">Other</string>
+    <string name="cv_submitted">CV details saved successfully!</string>
+    <string name="cv_submitted_skills">Skills saved successfully!</string>
+    <string name="cv_skill_add_please">Please add a Skill.</string>
+    <string name="fill_all">Please fill all the fields.</string>
+    <string name="fill_login">Please fill Username and Password.</string>
+    <string name="fill_login_pass">Password should be of minimum 8 characters.</string>
+    <string name="fill_mobile">Mobile should be of minimum 10 digits.</string>
+    <string name="fill_email">Please provide a valid email address.</string>
+    <string name="cv_skill_exist">Skill already exists.</string>
+    <string name="save">Save</string>
+    <string name="search">Search</string>
+    <!--employer-->
+    <string name="candidate_name">Candidate Name</string>
+    <string name="are_you">Are you a?</string>
+    <string name="candidates">Candidates</string>
+    <string name="candidate">Candidate</string>
+    <string name="employer">Employer</string>
+    <string name="skill_search">Enter skills for searching CV profiles</string>
+    <string name="skill_search_hint">Enter skills here</string>
+    <string name="skill_search_multiple">Enter multiple skills separated by comma</string>
+    <!--placeholder-->
+    <string name="ph_space">%s %s</string>
+    <string name="ph_grades">GRADES: %s</string>
+    <string name="ph_date_years">from %s to %s</string>
+    <string name="date_format">%1$s %2$s %3$d</string>
+</resources>

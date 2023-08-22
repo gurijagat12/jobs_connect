@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JobsConnect"
+        tools:targetApi="31">
+
+        <activity
+            android:name=".ui.splash.view.SplashActivity"
+            android:exported="true"
+            android:screenOrientation="${screenOrientation}">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.onboard.view.LoginActivity"
+            android:exported="true"
+            android:label="@string/login"
+            android:screenOrientation="${screenOrientation}"/>
+
+        <activity
+            android:name=".ui.onboard.view.RegisterActivity"
+            android:exported="true"
+            android:label="@string/register"
+            android:screenOrientation="${screenOrientation}"/>
+
+        <activity
+            android:name=".ui.home.view.HomeActivity"
+            android:exported="true"
+            android:screenOrientation="${screenOrientation}" />
+
+        <activity
+            android:name=".ui.employer.view.EmployerActivity"
+            android:exported="true"
+            android:screenOrientation="${screenOrientation}" />
+
+        <activity
+            android:name=".ui.cvadd.view.CVAddActivity"
+            android:exported="true"
+            android:label="@string/about_me"
+            android:screenOrientation="${screenOrientation}" />
+
+        <activity
+            android:name=".ui.cvadd.view.CVAddSkillActivity"
+            android:exported="true"
+            android:label="@string/skills"
+            android:screenOrientation="${screenOrientation}"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".ui.cvadd.view.CVAddExperienceActivity"
+            android:exported="true"
+            android:label="@string/experience"
+            android:screenOrientation="${screenOrientation}"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".ui.employer.view.SearchActivity"
+            android:exported="true"
+            android:label="@string/candidates"
+            android:screenOrientation="${screenOrientation}"
+            android:windowSoftInputMode="adjustResize" />
+
+        <activity
+            android:name=".util.view.FragmentAddActivity"
+            android:exported="true"
+            android:label="@string/candidates"
+            android:screenOrientation="${screenOrientation}"
+            android:windowSoftInputMode="adjustResize" />
+    </application>
+
+</manifest>
